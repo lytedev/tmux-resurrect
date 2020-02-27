@@ -1,4 +1,4 @@
-default_resurrect_dir="$HOME/.tmux/resurrect"
+default_resurrect_dir="${TMUX_PLUGIN_MANAGER_PATH:-$HOME/.tmux/plugins/}../resurrect"
 resurrect_dir_option="@resurrect-dir"
 
 SUPPORTED_VERSION="1.9"
